@@ -114,12 +114,12 @@ class _HomeState extends State<Home> {
 
     return Scaffold(
       backgroundColor: primary,
-      appBar: AppBar(
+      appBar: state == CountState.IDLE? AppBar(
         centerTitle: true,
         title: Text('Divan Kronometre', style: h2Semi.apply(color: primary),),
         backgroundColor: white,
         elevation: 0,
-      ),
+      ): null,
       
       body: ListView(
             shrinkWrap: true,
@@ -150,7 +150,7 @@ class _HomeState extends State<Home> {
                       ],
                     ),
                   ),
-                  ListTile(
+                  state == CountState.IDLE? ListTile(
                     title: Text('Sunum türü:', style: h2Semi.apply(fontSizeFactor: 0.8,)),
                     trailing: DropdownButton(
                       dropdownColor: secondary,
@@ -187,7 +187,7 @@ class _HomeState extends State<Home> {
                         );
                       }).toList()
                     ),
-                  ),
+                  ): SizedBox(height: 35,),
                   InkWell(
                     /* BAŞLAT */
                     onTap: (){

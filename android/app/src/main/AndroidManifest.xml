@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.divan_stopwatch">
    <application
-        android:label="divan_stopwatch"
+        android:label="Divan Kronometre"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
