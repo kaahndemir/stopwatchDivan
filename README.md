@@ -1,16 +1,24 @@
-# divan_stopwatch
+# Stopwatch Divan
 
-A new Flutter project.
+This repository contains the source code for an Android stopwatch application. Stopwatch was designed to use in [Gençlik Divanı](https://genclikdivani.com) meetings. And, has cons for users who will use it in other conditions.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Start, stop and reset stopwatch
+- Start break time.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Install the app from [Google App Store](https://play.google.com/store/apps/details?id=xyz.codeoguz.divan_stopwatch.divan_stopwatch)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+
+To use the stopwatch, open the application and press the start button. To record a lap time, press the lap button. To stop the stopwatch, press the stop button. To reset the stopwatch, press the reset button.
+
+## Contributing
+
+Contributions to this repository are welcome. Please fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
